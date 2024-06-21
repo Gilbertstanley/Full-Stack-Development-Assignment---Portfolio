@@ -1,0 +1,77 @@
+.row{
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+#myworkpic{
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+}
+#round{
+border-radius: 10px;
+}
+#homebutton{
+    border-style: 1px solid green;
+    border-radius: 10px;}
+
+#homebutton:hover{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+#quotepic{
+    height: 400px;
+}
+#posterani{
+    height: 250px;
+}
+#mylogo{
+border-radius: 180%;
+width: 350px;
+height: 320px;
+}
+/*#round2{
+    border-radius: 180%;
+}
+*/
+.myhero{
+    margin-top: 90px;
+}
+.quote{
+    margin-right: 150px;
+}
+#mindf{
+    margin-left: 100px;
+}
+.responsive-card {
+    position: absolute;
+    left: 33.3333%;
+    top: 546.8px;
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+  }
+  
+  /* Media query for tablets */
+  @media (max-width: 768px) {
+    .card {
+      position: static;
+      margin-left: auto;
+      margin-right: auto;
+      left: auto;
+      top: auto;
+      width: 80%; /* Adjust as needed */
+    }
+  }
+  
+  /* Media query for mobile phones */
+  @media (max-width: 576px) {
+    .card{
+      position: static;
+      margin-left: auto;
+      margin-right: auto;
+      left: auto;
+      top: auto;
+      width: 90%; /* Adjust as needed */
+    }
+  }
+  
